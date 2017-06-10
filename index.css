@@ -1,5 +1,6 @@
 html {
     font-family: sans-serif;
+    background-color: green;
 }
 .pomodoro-estimate {
     font-weight: bold;
@@ -8,4 +9,7 @@ html {
 #add-new-todo-button{
     font-size: 20px;
     box-shadow:2px 2px 1px #90A4AE;
+}
+#add-new-todo-button:active{
+    box-shadow: 1px 1px 1px #90A4AE;
 }
