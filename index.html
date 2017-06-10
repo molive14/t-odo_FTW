@@ -3,20 +3,23 @@
 <title> 
 To do list
 </title>
+<link rel="stylesheet" href="index.css">
 </head>
 <body>
 <h1>Hello World!</h1>
 <h1> Real people program</h1>
 <ul> 
-    <li> <a href="show.html">finish Geometry project for monday</a> 3 pomodoros</li>
-    <li>finish english paper 2 pomodoros</li>
-    <li>go to bestbuy 2 pomodoros</li>
-    <li>unbox things 1 pomodoros</li>
-    <li>relax 3 pomodoros</li>
+    <li> <a href="show.html">finish Geometry project for monday</a> 
+<span class="pomodoro-estimate">3 pomodoros</span> </li>
+    <li>finish english pape<span class="pomodoro-estimate"> 2 pomodoros</span></li>
+    <li>go to bestbuy <span class="pomodoro-estimate"> 3 pomodoros</span> </li>
+    <li>unbox things <span class="pomodoro-estimate"> 1 pomodoros</span></li>
+    <li>relax <span class="pomodoro-estimate">3 pomodoros</span></li>
 </ul>
 <input type="text" placeholder="Add a new todo...">
 <input type="number" placeholder="Pomodoro estimate...">
-<input type="submit" value="Add todo">
+<input id="add-new-todo-button" type="submit" value="Add todo">
+
 </body>
 </html>
 
