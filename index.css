@@ -26,22 +26,31 @@ html {
 ul{
     padding: 10px;
     margin-bottom: 10px;
-    border-radius: 50px;
     font-size:14px;
     padding: 5px 5px 5px 5px;
-    background-color:white;
+    background-color:brown;
+    color:white;
 }
-div {
-    background-color: purple;
-    padding: 20px;
-}
-span{
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   background-color: #34495e;
   color: #ECF0F1;
   padding: 20px
 }
 h1{
-    text-align: center;
+text-align: center;
   display: inline-block;
   vertical-align: middle;
   font-size: 32px;
